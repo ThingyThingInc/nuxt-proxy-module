@@ -25,7 +25,11 @@ function getProxyEntries(proxyOptions, defaults) {
         options: applyDefaults(normalizeTarget(input[1]))
       });
     } else if (typeof input === "object") {
-      proxyEntries.push(input);
+      const {context, options} = input;
+      proxyEntries.push({
+        context,
+        options: applyDefaults(normalizeTarget(options))
+      });
     } else {
       proxyEntries.push({
         context: input,
