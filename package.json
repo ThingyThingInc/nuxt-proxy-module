@@ -1,8 +1,8 @@
 {
   "name": "@nuxtjs/proxy",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "proxy support for nuxt server",
-  "repository": "nuxt-community/proxy-module",
+  "repository": "ThingyThingInc/nuxt-proxy-module",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
