@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-proxy-module",
+  "name": "@extra/nuxt-proxy",
   "version": "2.1.1",
   "description": "proxy support for nuxt server",
   "repository": "ThingyThingInc/nuxt-proxy-module",
