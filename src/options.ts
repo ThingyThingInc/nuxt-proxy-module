@@ -38,7 +38,7 @@ export function getProxyEntries (proxyOptions: NuxtProxyOptions, defaults: HttpP
         options: applyDefaults(normalizeTarget(input[1] as string))
       })
     } else if (typeof input === 'object') {
-      proxyEntries.push(input)
+      proxyEntries.push(input as ProxyEntry)
     } else {
       proxyEntries.push({
         context: input,
